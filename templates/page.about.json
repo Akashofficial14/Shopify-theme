@@ -6,60 +6,63 @@
         "story_1": {
           "type": "story",
           "settings": {
-            "eyebrow": "Founded 2018",
-            "heading": "Born from a desire for cleaner beauty",
-            "body": "<p>Our founder spent years searching for skincare that was both effective and honest. Unable to find it, she built it — formulating every product with certified organic ingredients and clinical-grade actives.</p><p>Today, we\u2019re trusted by thousands of customers who believe their skin deserves better.</p>",
-            "cta_label": "Shop the range",
+            "eyebrow": "Our beginning",
+            "heading": "A story worth telling",
+            "body": "<p>Tell customers the story behind your brand \u2014 why you started, what drives you, and why it matters to them.</p><p>Replace this text with your own brand story in the theme editor.</p>",
+            "cta_label": "Shop now",
             "reverse_layout": false
           }
         },
         "stats_1": {
           "type": "stats",
           "settings": {
-            "stat1_value": "50K+",
+            "stat1_value": "10K+",
             "stat1_label": "Happy customers",
-            "stat2_value": "100%",
-            "stat2_label": "Cruelty Free",
-            "stat3_value": "6+",
-            "stat3_label": "Years of research",
-            "stat4_value": "30+",
-            "stat4_label": "Active ingredients"
+            "stat2_value": "5+",
+            "stat2_label": "Years in business",
+            "stat3_value": "100%",
+            "stat3_label": "Satisfaction guarantee",
+            "stat4_value": "",
+            "stat4_label": ""
           }
         },
         "values_1": {
           "type": "values",
           "settings": {
             "eyebrow": "What we stand for",
-            "title": "Our commitments to you",
-            "value1_icon": "leaf",
-            "value1_title": "Clean Formulas",
-            "value1_body": "Every ingredient earns its place. No fillers, no toxins, no compromises.",
-            "value2_icon": "shield",
-            "value2_title": "Dermatologist Tested",
-            "value2_body": "Clinically validated on all skin types, including sensitive and reactive skin.",
-            "value3_icon": "heart",
-            "value3_title": "Cruelty Free",
-            "value3_body": "Never tested on animals. Certified by Leaping Bunny and PETA.",
-            "value4_icon": "check",
-            "value4_title": "Sustainably Packaged",
-            "value4_body": "All packaging is recyclable or biodegradable."
+            "title": "Our commitments",
+            "subtitle": "",
+            "value1_icon": "check",
+            "value1_title": "Quality",
+            "value1_body": "Describe your first core value or commitment to customers.",
+            "value2_icon": "heart",
+            "value2_title": "Community",
+            "value2_body": "Describe your second core value or commitment to customers.",
+            "value3_icon": "shield",
+            "value3_title": "Transparency",
+            "value3_body": "Describe your third core value or commitment to customers.",
+            "value4_icon": "leaf",
+            "value4_title": "",
+            "value4_body": ""
           }
         },
         "team_1": {
           "type": "team",
           "settings": {
-            "eyebrow": "The people behind the products",
-            "title": "Meet our founders",
-            "member1_name": "Priya Sharma",
-            "member1_role": "Co-Founder & CEO",
-            "member2_name": "Dr. Riya Mehta",
-            "member2_role": "Head of Formulation"
+            "eyebrow": "The people behind it",
+            "title": "Meet the team",
+            "member1_name": "Team Member",
+            "member1_role": "Founder & CEO",
+            "member1_bio": "",
+            "member2_name": "",
+            "member2_role": "",
+            "member2_bio": ""
           }
         },
         "press_1": {
           "type": "press",
           "settings": {
-            "label": "As seen in"
+            "label": "As featured in"
           }
         }
       },
@@ -72,8 +75,8 @@
       ],
       "settings": {
         "hero_eyebrow": "Our Story",
-        "hero_heading": "Beauty rooted in science, guided by nature.",
-        "hero_subtext": "We believe that what you put on your skin should be as pure as what you put in your body.",
+        "hero_heading": "Who we are",
+        "hero_subtext": "A short sentence that captures what makes your brand different.",
         "padding_top": 0,
         "padding_bottom": 0
       }
