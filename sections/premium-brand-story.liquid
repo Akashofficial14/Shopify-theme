@@ -1,0 +1,49 @@
+<section class="premium-brand-story color-{{ section.settings.color_scheme }}">
+  <div class="page-width">
+    <div class="premium-brand-story__grid">
+      <div>
+        {% if section.settings.eyebrow != blank %}
+          <p class="caption-with-letter-spacing">{{ section.settings.eyebrow }}</p>
+        {% endif %}
+        <h2>{{ section.settings.heading }}</h2>
+        <div class="rte">{{ section.settings.description }}</div>
+        {% if section.settings.button_label != blank %}
+          <a href="{{ section.settings.button_link }}" class="button">
+            {{ section.settings.button_label }}
+          </a>
+        {% endif %}
+      </div>
+      {% if section.settings.image != blank %}
+      <div>
+        {{
+          section.settings.image
+          | image_url: width: 1200
+          | image_tag: loading: 'lazy', widths: '375,550,750,1100,1200', class: 'premium-brand-story__image'
+        }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<style>
+.premium-brand-story__grid{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center}
+.premium-brand-story__image{width:100%;border-radius:18px}
+@media(max-width:749px){.premium-brand-story__grid{grid-template-columns:1fr;gap:2rem}}
+</style>
+
+{% schema %}
+{
+  "name": "Premium Brand Story",
+  "settings": [
+    {"type":"text","id":"eyebrow","label":"Eyebrow","default":"Premium Collection"},
+    {"type":"text","id":"heading","label":"Heading","default":"Designed for modern commerce"},
+    {"type":"richtext","id":"description","label":"Description","default":"<p>Tell your brand story with premium visuals and conversion-focused content.</p>"},
+    {"type":"image_picker","id":"image","label":"Image"},
+    {"type":"text","id":"button_label","label":"Button label","default":"Shop now"},
+    {"type":"url","id":"button_link","label":"Button link"},
+    {"type":"color_scheme","id":"color_scheme","label":"Color scheme","default":"scheme-1"}
+  ],
+  "presets":[{"name":"Premium Brand Story"}]
+}
+{% endschema %}

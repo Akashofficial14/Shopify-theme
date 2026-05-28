@@ -1,0 +1,85 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-about",
+      "blocks": {
+        "story_1": {
+          "type": "story",
+          "settings": {
+            "eyebrow": "Founded 2018",
+            "heading": "Born from a desire for cleaner beauty",
+            "body": "<p>Our founder spent years searching for skincare that was both effective and honest. Unable to find it, she built it — formulating every product with certified organic ingredients and clinical-grade actives.</p><p>Today, we\u2019re trusted by thousands of customers who believe their skin deserves better.</p>",
+            "cta_label": "Shop the range",
+            "reverse_layout": false
+          }
+        },
+        "stats_1": {
+          "type": "stats",
+          "settings": {
+            "stat1_value": "50K+",
+            "stat1_label": "Happy customers",
+            "stat2_value": "100%",
+            "stat2_label": "Cruelty Free",
+            "stat3_value": "6+",
+            "stat3_label": "Years of research",
+            "stat4_value": "30+",
+            "stat4_label": "Active ingredients"
+          }
+        },
+        "values_1": {
+          "type": "values",
+          "settings": {
+            "eyebrow": "What we stand for",
+            "title": "Our commitments to you",
+            "value1_icon": "leaf",
+            "value1_title": "Clean Formulas",
+            "value1_body": "Every ingredient earns its place. No fillers, no toxins, no compromises.",
+            "value2_icon": "shield",
+            "value2_title": "Dermatologist Tested",
+            "value2_body": "Clinically validated on all skin types, including sensitive and reactive skin.",
+            "value3_icon": "heart",
+            "value3_title": "Cruelty Free",
+            "value3_body": "Never tested on animals. Certified by Leaping Bunny and PETA.",
+            "value4_icon": "check",
+            "value4_title": "Sustainably Packaged",
+            "value4_body": "All packaging is recyclable or biodegradable."
+          }
+        },
+        "team_1": {
+          "type": "team",
+          "settings": {
+            "eyebrow": "The people behind the products",
+            "title": "Meet our founders",
+            "member1_name": "Priya Sharma",
+            "member1_role": "Co-Founder & CEO",
+            "member2_name": "Dr. Riya Mehta",
+            "member2_role": "Head of Formulation"
+          }
+        },
+        "press_1": {
+          "type": "press",
+          "settings": {
+            "label": "As seen in"
+          }
+        }
+      },
+      "block_order": [
+        "story_1",
+        "stats_1",
+        "values_1",
+        "team_1",
+        "press_1"
+      ],
+      "settings": {
+        "hero_eyebrow": "Our Story",
+        "hero_heading": "Beauty rooted in science, guided by nature.",
+        "hero_subtext": "We believe that what you put on your skin should be as pure as what you put in your body.",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
